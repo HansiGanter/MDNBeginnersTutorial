@@ -18,7 +18,7 @@ function setUserName(text = "Please enter your name.") {
     setUserName("You have to enter a name in order to proceed!");
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Mozilla is cool, ${myName}`;
+    myHeading.textContent = `Ich grütze Sie, ${myName}`;
   }
 }
 
